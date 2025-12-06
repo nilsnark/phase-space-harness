@@ -1,5 +1,5 @@
 [package]
-name = "phase_space_test_harness"
+name = "phase_space_harness"
 version = "0.1.0"
 edition = "2021"
 description = "Test harness that spawns the Phase Space engine and drives it through the network protocol"
