@@ -1,0 +1,21 @@
+[package]
+name = "phase_space_test_harness"
+version = "0.1.0"
+edition = "2021"
+description = "Test harness that spawns the Phase Space engine and drives it through the network protocol"
+license = "MIT OR Apache-2.0"
+
+[features]
+default = []
+test-support = []
+
+[dependencies]
+phase_space_protocol = { git = "https://github.com/nilsnark/phase-space-protocol", package = "phase_space_protocol" }
+thiserror = "1.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[[bin]]
+name = "fake_engine"
+path = "src/bin/fake_engine.rs"
+required-features = ["test-support"]

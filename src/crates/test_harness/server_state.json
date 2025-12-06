@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "dimension": 0,
+      "entity_id": 2,
+      "kind": "entity_2",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "velocity": [
+        45.0,
+        0.0
+      ],
+      "mass": 1000.0
+    },
+    {
+      "dimension": 0,
+      "entity_id": 3,
+      "kind": "entity_3",
+      "position": [
+        10000.0,
+        0.0
+      ],
+      "velocity": [
+        -35.0,
+        5.0
+      ],
+      "mass": 900.0
+    },
+    {
+      "dimension": 0,
+      "entity_id": 4,
+      "kind": "interceptor_a",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "velocity": [
+        45.0,
+        0.0
+      ],
+      "mass": 1000.0
+    },
+    {
+      "dimension": 0,
+      "entity_id": 5,
+      "kind": "interceptor_b",
+      "position": [
+        10000.0,
+        0.0
+      ],
+      "velocity": [
+        -35.0,
+        5.0
+      ],
+      "mass": 900.0
+    }
+  ]
+}
