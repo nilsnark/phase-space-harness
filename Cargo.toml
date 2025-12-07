@@ -1,8 +1,8 @@
 [workspace]
-members = [ "crates/test_harness" ]
+members = [ "src/crates/test_harness" ]
 
 # Use the V2 resolver so that features and dependencies are handled consistently
 resolver = "2"
 
 [workspace.dependencies]
-phase_space_harness = { version = "0.1.0", path = "crates/test_harness" }
+phase_space_harness = { version = "0.1.0", path = "src/crates/test_harness" }

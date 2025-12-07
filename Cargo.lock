@@ -15,20 +15,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f52b00d39961fc5b2736ea853c9cc86238e165017a493d1d5c8eac6bdc4cc273"
 
 [[package]]
-name = "phase_space_protocol"
+name = "phase_space_harness"
 version = "0.1.0"
-source = "git+https://github.com/nilsnark/phase-space-protocol#064aec60103224e7ee7381d931f6893b8fd0f1f4"
 dependencies = [
+ "phase_space_protocol",
  "serde",
  "serde_json",
  "thiserror",
 ]
 
 [[package]]
-name = "phase_space_test_harness"
+name = "phase_space_protocol"
 version = "0.1.0"
+source = "git+https://github.com/nilsnark/phase-space-protocol#064aec60103224e7ee7381d931f6893b8fd0f1f4"
 dependencies = [
- "phase_space_protocol",
  "serde",
  "serde_json",
  "thiserror",

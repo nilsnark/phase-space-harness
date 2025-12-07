@@ -4,7 +4,7 @@
 //! Typical usage:
 //! ```no_run
 //! use phase_space_protocol::psip::EntityParameters;
-//! use phase_space_test_harness::{EngineConfig, EngineHarness, ScenarioConfig, SpawnSpec};
+//! use phase_space_harness::{EngineConfig, EngineHarness, ScenarioConfig, SpawnSpec};
 //!
 //! let binary = "/path/to/phase-space-engine";
 //! let config = EngineConfig::new(binary).with_arg("--test-mode");
