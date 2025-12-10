@@ -19,3 +19,6 @@ serde_json = "1"
 name = "fake_engine"
 path = "src/bin/fake_engine.rs"
 required-features = ["test-support"]
+
+[dev-dependencies]
+tempfile = "3"

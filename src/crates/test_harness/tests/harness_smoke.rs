@@ -2,8 +2,8 @@
 
 use std::path::PathBuf;
 
+use phase_space_harness::{EngineConfig, EngineHarness, ScenarioConfig, SpawnSpec};
 use phase_space_protocol::psip::EntityParameters;
-use phase_space_test_harness::{EngineConfig, EngineHarness, ScenarioConfig, SpawnSpec};
 
 fn fake_engine_path() -> PathBuf {
     if let Ok(path) = std::env::var("CARGO_BIN_EXE_fake_engine") {
